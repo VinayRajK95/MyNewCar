@@ -101,7 +101,7 @@ class DetailsView: UIView {
         constraintsForView += NSLayoutConstraint.createConstraint(format:"H:|-[releasedOn]-[rating]-[runTime]-(>=0)-|" ,subViewDict: subViewDict);
         constraintsForView += NSLayoutConstraint.createConstraint(format:"H:|-[summary]-|" ,subViewDict: subViewDict);
         
-        constraintsForView += NSLayoutConstraint.createConstraint(format:"V:|[imageView]-[releasedOn]-[titleLabel]-[summary]-|" ,subViewDict: subViewDict);
+        constraintsForView += NSLayoutConstraint.createConstraint(format:"V:|-50-[imageView]-[releasedOn]-[titleLabel]-[summary]-|" ,subViewDict: subViewDict);
         
 
         
