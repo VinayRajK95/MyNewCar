@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		702977772442ED9500A1C190 /* CollectionviewDSandDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702977762442ED9500A1C190 /* CollectionviewDSandDelegate.swift */; };
+		702977792442EDA100A1C190 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702977782442EDA100A1C190 /* MainView.swift */; };
 		705BFE802441A49C00210658 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705BFE7F2441A49C00210658 /* AppDelegate.swift */; };
 		705BFE822441A49C00210658 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705BFE812441A49C00210658 /* SceneDelegate.swift */; };
 		705BFE842441A49C00210658 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705BFE832441A49C00210658 /* ViewController.swift */; };
@@ -22,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		702977762442ED9500A1C190 /* CollectionviewDSandDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionviewDSandDelegate.swift; sourceTree = "<group>"; };
+		702977782442EDA100A1C190 /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		705BFE7C2441A49C00210658 /* MyNewCar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyNewCar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		705BFE7F2441A49C00210658 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		705BFE812441A49C00210658 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -71,6 +75,7 @@
 				705BFE7F2441A49C00210658 /* AppDelegate.swift */,
 				705BFE812441A49C00210658 /* SceneDelegate.swift */,
 				705BFE972441AA9500210658 /* ViewModel.swift */,
+				702977762442ED9500A1C190 /* CollectionviewDSandDelegate.swift */,
 				705BFEAB2441D21F00210658 /* Model */,
 				705BFEAA2441D21800210658 /* Helpers */,
 				705BFEA92441D21000210658 /* Controller */,
@@ -85,6 +90,7 @@
 		705BFEA82441D20900210658 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				702977782442EDA100A1C190 /* MainView.swift */,
 				705BFE9B2441B25B00210658 /* ImageCollectionViewCell.swift */,
 				705BFEA62441D0FE00210658 /* DetailsView.swift */,
 			);
@@ -188,10 +194,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				705BFE962441A6F100210658 /* Model.swift in Sources */,
+				702977792442EDA100A1C190 /* MainView.swift in Sources */,
 				705BFEA72441D0FE00210658 /* DetailsView.swift in Sources */,
 				705BFE842441A49C00210658 /* ViewController.swift in Sources */,
 				705BFEA52441D0E600210658 /* DetailsViewController.swift in Sources */,
 				705BFE9C2441B25B00210658 /* ImageCollectionViewCell.swift in Sources */,
+				702977772442ED9500A1C190 /* CollectionviewDSandDelegate.swift in Sources */,
 				705BFE802441A49C00210658 /* AppDelegate.swift in Sources */,
 				705BFE822441A49C00210658 /* SceneDelegate.swift in Sources */,
 				705BFE9E2441B33A00210658 /* UIUtils.swift in Sources */,

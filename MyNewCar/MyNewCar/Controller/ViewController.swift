@@ -24,6 +24,7 @@ class ViewController: UIViewController {
         viewModel.delegate = self
         viewModel.fetchData()
         viewModel.dataSource.delegate = viewModel
+        viewModel.dataSource.traitChanged(traitCollection: traitCollection)
 
         view.backgroundColor = UIColor.systemBackground
     }
